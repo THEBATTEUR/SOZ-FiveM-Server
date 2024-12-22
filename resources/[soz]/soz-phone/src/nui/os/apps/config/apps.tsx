@@ -126,9 +126,6 @@ export const APPS: IAppConfig[] = [
         component: <TwitchNewsApp />,
         icon: TwitchNewsIcon,
     },
-    /* 
-    Disabled as sutom web site no longer allow external inclusion
-    Need a local instance to fix
     {
         id: 'zutom',
         nameLocale: 'APPS_ZUTOM',
@@ -136,7 +133,6 @@ export const APPS: IAppConfig[] = [
         component: <ZutomApp />,
         icon: ZutomIcon,
     },
-    */
     {
         id: 'camera',
         nameLocale: 'APPS_CAMERA',
